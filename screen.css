@@ -18,7 +18,7 @@ body {
     background-color: lightblue;
 }
 
-h1{
+h1 , h2{
     font-size: 1.73em; /* 31.104 px */
     line-height: 1.22em;
 }
@@ -65,17 +65,16 @@ li:last-child {
     border-right: none;
 }
 p  {
-    color: purple;
+    color: #D83938;
     font-family: serif;
 
 }
 img{
-    width: 100%;
-    max-height: 600px;
+    width: 75%;
+    max-height: 40%;
     background-image: url('pic1.jpg');
     background-repeat: no-repeat;
     background-size: contain;
-
 }
 
 .container{
@@ -117,7 +116,10 @@ max-width: 30%;
 @media screen and (min-width: 600px) {
 
 }
-
+ul
+{
+padding-bottom: 10px;
+}
 
 
 
